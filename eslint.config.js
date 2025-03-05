@@ -45,7 +45,13 @@ export default tseslint.config(
       'no-console': 'warn',
       'react/button-has-type': 'error',
       'react/react-in-jsx-scope': ['off'],
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      'prettier/prettier': [
+  'error',
+  {
+    'endOfLine': 'auto',
+  }
+]
     }
   },
   {
@@ -65,6 +71,12 @@ export default tseslint.config(
       'testing-library/no-await-sync-queries': 'error',
       'testing-library/no-debugging-utils': 'warn',
       'testing-library/no-dom-import': 'off',
+      'prettier/prettier': [
+  'error',
+  {
+    'endOfLine': 'auto',
+  }
+],
       ...vitest.configs.recommended.rules,
       'vitest/max-nested-describe': ['error', { max: 3 }]
     }
