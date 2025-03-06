@@ -22,6 +22,7 @@ export default function App() {
         <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <h1>Hello</h1>
       </div>
       {/* img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.eslintjsx-a11y/alt-text */}
       <img src="" alt="" />
