@@ -1,15 +1,18 @@
-import './App.css'
-import Cards from './Components/Cards'
+// import { use } from 'react'
 
-// If you plan to use viteLogo, make sure to use the correct path.
-// const viteLogo = '/vite.svg'; // Uncomment and fix the path if needed
+import Cards from './Components/Check'
+import Quick2 from './Components/Quick2'
 
-export default function App() {
+function App() {
   return (
     <>
       <div>
         <Cards />
+        <Cards />
+        <Quick2 />
       </div>
     </>
   )
 }
+
+export default App
