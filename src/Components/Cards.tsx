@@ -10,7 +10,7 @@ export default function Cards() {
         </div>
 
         <div>
-          <img className="w-8 pt-4" src="/src/assets/image.png" alt="icon" />
+          <img className="w-8 pt-4" src="image.png" alt="icon" />
         </div>
       </div>
       <div className="Holder flex gap-14 leading-5 p-2 text-left pb-3 pl-4">
